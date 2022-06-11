@@ -194,7 +194,7 @@ body {
 
 .rodape .endereco {
     width: 33%;
-    height: 220px;
+    height: auto;
     display: flex;
     font-family: serif;
     color: white;
@@ -204,8 +204,23 @@ body {
     flex-direction: column;
     line-height: 30px;
 }
+.rodape .endereco2 {
+    width: 33%;
+    height: auto;
+    display: flex;
+    font-family: serif;
+    color: white;
+    font-size: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    line-height: 20px;
+}
 
 .rodape .endereco p{
+    text-align: center;
+}
+.rodape .endereco2 p{
     text-align: center;
 }
 .rodape .logo {
@@ -222,7 +237,7 @@ body {
 }
 
 .melhorgene{
-    width: 95%;
+    width: 70%;
     height: 300px;
     margin: 20px auto;
 }
@@ -306,18 +321,25 @@ body {
     width: 30%;
     height: 500px;
     display: flex;
-    background-color: blue;
+   
+}
+
+.containernutri .boxnutri img{
+    width: 100%;
 }
 
 .containertexto{
     width: 80%;
-    height: 1300px;
+    height: auto;
     margin: 20px auto;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     text-align: justify;
+
+   
+    
 }
 
 .containertexto h1{
@@ -354,6 +376,7 @@ body {
     margin: 20px auto;
     display: flex;
     
+    
 }
 
 .containertexto ul li {
@@ -366,27 +389,38 @@ body {
 }
 
 .imgtransporte{
-    width: 90%;
+    width: 100%;
     height: 400px;
     margin: 20px auto;
     display: flex;
-    background-color: aqua;
+    justify-content: center;
+    align-items: center;
 }
+
+.imgtrasnporte img{
+    width: 100%;
+    height: auto;
+}
+
 .containertransp{
     width: 100%;
     height: 400px;
     margin: 20px auto;
     display: flex;
     justify-content: space-around;
-    background-color: burlywood;
+    
 }
 .containertransp .boxnutransp{
     width: 20%;
     height: 400px;
     display: flex;
-    background-color: blue;
+    
 }
 
+.containertransp .boxnutransp img{
+    width: 100%;
+
+}
 .containertexto1{
     width: 100%;
     height: 1300px;
@@ -411,7 +445,7 @@ body {
     height: 300px;
     margin: 20px auto;
     display: flex;
-    background-color: brown;
+    
 }
 
 form {
